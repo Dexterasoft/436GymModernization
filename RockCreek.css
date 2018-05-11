@@ -1,0 +1,109 @@
+/**************
+     IS 448
+          
+      Initial CSS File for HW2
+**************/ 
+	/*Code that implements appearance detail 1 in homework handout */
+	body{
+		background-image: url(background.png);
+		font-size: 8pt;
+		font-family:Verdana, Tahoma, sans-serif;
+	}
+	/*Code that implements appearance detail 2 in homework handout */
+	.top{
+		height: 200px;
+		width: 1000px;
+		margin: auto;
+		Background-color: #6E6E6E;
+		
+	}
+	
+	.banner{
+		height: 175px;
+		width: 800px;
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+		
+	.main{
+		width: 1000px;
+		height: 1500px;
+		padding:0px;
+		margin: auto;
+		background-color: #6e6e6e;
+		
+	}
+	.mainsub{
+		width: 750px;
+		height: 1500px;
+		margin: auto;
+		padding:0px;
+		background-color: #6e6e6e;
+		float: right;
+	}
+	
+		
+	.centerpiece{
+		width: 590px;
+		height: 1500px;
+		padding:0px;
+		background-color: #d8d8d8;
+        border:2px solid gray;
+		float: left;
+	}
+	
+	.background{
+		background-image: url("StoneBG.jpg");
+	}
+		
+	.rightside{
+		float: right;
+		width: 140px;
+		height: 1480px;
+		padding: 5px;
+		background-color: #6e6e6e;
+		font-size: 8pt;
+		font-family: Arial, sans-serif;
+	}
+	
+	.leftside{
+		float: left;
+		width: 240px;
+		height: 1480px;
+		padding: 5px;
+		background-color: #6e6e6e;
+		font-size: 8pt;
+		font-family: Arial, sans-serif;
+	}
+	
+	
+	
+	.tabletop{
+	font-family:calibri , futura;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75em;
+	background-color: white;
+}
+	
+	.tableleft{
+	font-family:calibri , futura;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 240px;
+	height: 200px;
+	background-color: white;
+}
+
+.tableright{
+	font-family:calibri , futura;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 140px;
+	height: 600px;
+	background-color: white;
+}
+	
