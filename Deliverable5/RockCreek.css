@@ -9,13 +9,13 @@
 		font-size: 8pt;
 		font-family:Verdana, Tahoma, sans-serif;
 	}
+	
 	/*Code that implements appearance detail 2 in homework handout */
 	.top{
 		height: 200px;
 		width: 1000px;
 		margin: auto;
-		Background-color: #6E6E6E;
-		
+		Background-color: #6E6E6E;		
 	}
 	
 	.banner{
@@ -24,15 +24,15 @@
 		margin-left: 100px;
 		margin-right: 100px;
 	}
-		
+	
 	.main{
 		width: 1000px;
 		height: 1500px;
 		padding:0px;
 		margin: auto;
 		background-color: #6e6e6e;
-		
 	}
+	
 	.mainsub{
 		width: 750px;
 		height: 1500px;
@@ -42,7 +42,6 @@
 		float: right;
 	}
 	
-		
 	.centerpiece{
 		width: 590px;
 		height: 1500px;
@@ -55,7 +54,7 @@
 	.background{
 		background-image: url("StoneBG.jpg");
 	}
-		
+	
 	.rightside{
 		float: right;
 		width: 140px;
@@ -74,113 +73,113 @@
 		background-color: #6e6e6e;
 		font-size: 8pt;
 		font-family: Arial, sans-serif;
-	}
-	
-	
+	}	
 	
 	.tabletop{
-	font-family:calibri , futura;
-	color: black;
-	margin-left: auto;
-	margin-right: auto;
-	width: 75em;
-	background-color: white;
-}
+		font-family:calibri , futura;
+		color: black;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75em;
+		background-color: white;
+	}
 	
 	.tableleft{
-	font-family:calibri , futura;
-	color: black;
-	margin-left: auto;
-	margin-right: auto;
-	width: 240px;
-	height: 200px;
-	background-color: white;
-}
+		font-family:calibri , futura;
+		color: black;
+		margin-left: auto;
+		margin-right: auto;
+		width: 240px;
+		height: 200px;
+		background-color: white;
+	}
 
-.tableright{
-	font-family:calibri , futura;
-	color: black;
-	margin-left: auto;
-	margin-right: auto;
-	width: 140px;
-	height: 600px;
-	background-color: white;
-}
+	.tableright{
+		font-family:calibri , futura;
+		color: black;
+		margin-left: auto;
+		margin-right: auto;
+		width: 140px;
+		height: 600px;
+		background-color: white;
+	}
 
-input.search {
-	outline: none;
-}
+	input.search {
+		outline: none;
+	}
 
-/*Ensure the encased tag is floating to the right*/
-#nav .float-right{
-	float: right;
-}
+	/*Ensure the encased tag is floating to the right*/
+	#nav .float-right{
+		float: right;
+	}
 
-input[type=text].search {
-	-webkit-appearance: textfield;
-	-webkit-box-sizing: content-box;
-	font-family: inherit;
-	font-size: 100%;
-}
-
-input::-webkit-search-decoration,
-input::-webkit-search-cancel-button {
-	display: none; 
-}
-
-input[type=text].search{
-  	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) 
-  	no-repeat 9px center;
-	border: solid 1px #ccc;
+	input[type=text].search {
+		-webkit-appearance: textfield;
+		-webkit-box-sizing: content-box;
+		font-family: inherit;
+		font-size: 100%;
+	}
 	
-	-webkit-border-radius: 10em;
-	-moz-border-radius: 20em;
-	border-radius: 25em;
+	/*needs comment*/
+	input::-webkit-search-decoration,
+	input::-webkit-search-cancel-button {
+		display: none; 
+	}
+
+	input[type=text].search{
+		background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) 
+		no-repeat 9px center;
+		border: solid 1px #ccc;
+		
+		-webkit-border-radius: 10em;
+		-moz-border-radius: 20em;
+		border-radius: 25em;
+		
+		-webkit-transition: all .5s;
+		-moz-transition: all .5s;
+		transition: all .5s;
+
+		width: 25px;
+		height: 30px;
+		padding-left: 10px;
+		margin-top: 4px;
+		margin-bottom: 4px;
+		margin-left: 4px;
+		margin-right: 10px;
+		color: transparent;
+		cursor: pointer;
+
+		/*Make the Search icon appear on the right of the nav bar*/
+		float: right;
+		clear: right;
+	}
+
+	input[type=text].search:hover {
+		background-color: #fff;
+	}
+
+	input[type=text].search:focus{
+		width: 50%; /*Expand to 35% of the viewport width*/
+		background-color: #fff;
+		border-color: #66CC75;
+		
+		-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+		-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+		box-shadow: 0 0 5px rgba(109,207,246,.5);
+
+		padding-left: 32px;
+		color: #000;
+		cursor: auto;
+		float: right;
+		clear: right;
+	}
+
+	input.search:-moz-placeholder {
+		color: transparent;
+
+	}
 	
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
-
-	width: 25px;
-	height: 30px;
-	padding-left: 10px;
-	margin-top: 4px;
-	margin-bottom: 4px;
-	margin-left: 4px;
-	margin-right: 10px;
-	color: transparent;
-	cursor: pointer;
-
-	/*Make the Search icon appear on the right of the nav bar*/
-	float: right;
-	clear: right;
-}
-
-input[type=text].search:hover {
-	background-color: #fff;
-}
-
-input[type=text].search:focus{
-	width: 50%; /*Expand to 35% of the viewport width*/
-	background-color: #fff;
-	border-color: #66CC75;
-	
-	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	box-shadow: 0 0 5px rgba(109,207,246,.5);
-
-	padding-left: 32px;
-	color: #000;
-	cursor: auto;
-	float: right;
-	clear: right;
-}
-
-input.search:-moz-placeholder {
-	color: transparent;
-
-}
-input.search::-webkit-input-placeholder {
-	color: transparent;
-}
+	input.search::-webkit-input-placeholder {
+		color: transparent;
+	}
 	
