@@ -21,7 +21,7 @@
         // $_SESSION("myusername");
          $_SESSION['login_user'] = $myusername;
          
-         header("location: DTprofile.php");
+         header("location: RC_memberprofile.php");
       }else {
          $error = "Your Login Name or Password is invalid";
       }
