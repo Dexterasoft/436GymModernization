@@ -1,55 +1,90 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title> RockCreek Gym </title>
-<link rel="stylesheet" href="RockCreek.css" type="text/css">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title> RockCreek Gym </title>
+	<link rel="stylesheet" href="RockCreek.css" type="text/css">
 </head>
 
 <body>
-<div class="background">
-<div class="top">
-<img class="banner" src="RockCreekLogo.jpg" alt="Logo" >
+	<div class="background">		
+		<div class="top">
+			<img class="banner" src="RockCreekLogo.jpg" alt="Logo" >
+			<table class="tabletop" border= "1">
+				<tr>
+					<th><a href="RockCreekHome.html" title="homepage">Home</a></th>
+					<th><a href="RockCreekAppointment.html" title="appointments">Make an Appointment</a></th>
+					<th>About Us</th>
+					<th><a href="RockCreekLogin.html" title="Appointment">Log In/Sign Up</a></th>
+					<th><a href="RockCreekContactUs.html" title="Contact Us">Contact Us</a></th>
+				</tr>
+			</table>
+		</div>
 
-<table class="tabletop" border= "1">
+		<div class="main" >
+
+			<div class="leftside">
+				<input id="DTsearch" class="search" type="text" name="search" />
+				
+			</div>
+			<div class="mainsub" >
+				<div class="centerpiece">
+					<p class="para">Hello. This is where our contact form will go.</p>
+					
+					<!--Work in progress-->
+					<form action="ContactInfo.php" method="post">
+						<Center>
+						<H2> Contact Us</H2>
+						<hr>
+						Full Name:
+						<input type="text" name="name" placeholder="My name is... "><br>
+						Message Title:
+						<input type="msgtitle" name="msgtitle" placeholder="I'm emailing because... "><br>
+						
+						<input type="radio" name="category" value="Billing" checked> Billing <br>
+						<input type="radio" name="category" value="General inquiries"> General inquiries <br>
+						<input type="radio" name="category" value="Suggestions"> Suggestions <br>
+						<input type="radio" name="category" value="Tours"> Taking a tour <br>
+						<input type="radio" name="category" value="Travel directions"> Travel directions <br>
+						<input type="radio" name="category" value="Web services"> Web services <br>
+						<br>
+						<hr>
+						
+						<input type="submit" value="Send Data" name="submit">
+						</Center>
+					</form>
+					
+					
+					
+				</div>
+				
+
+				<div class="rightside">
+					
+						
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+
+			<table border= "0" class="tablebottom">
 <tr>
-<th>Home</th>
-<th>Make an Appointment</th>
-<th>About Us</th>
-<th>Log In/Sign Up</th>
-<th>Contact Us</th>
+<th><img src="googleplus.png" height="50px" width="50px" alt="Google Plus Icon"></th>
+<th><img src="snapchat.png" height="50px" width="50px" alt="Snapchat Icon"></th>
+<th>Copyright 2018   All Rights Reserved</th>
+<th><img src="fbicon.png" height="50px" width="50px" alt="Facebook Icon"></th>
+<th><img src="twittericon.jpg" height="50px" width="50px" alt="Twitter Icon"></th>
 </tr>
 </table>
-</div>
-
-<div class="main" >
-
-	<div class="leftside">
-	<table border= "1" class="tableleft">
-<tr>
-<th>Search Bar can Go Here</th>
-</tr>
-</table>
-		
-	</div>
-<div class="mainsub" >
-	<div class="centerpiece">
-		
-<p class="para">Hello. This is where our contact form will go.</p>
-		
-		
 		
 		
 	</div>
-	
 
-	<div class="rightside">
-		
-			
-		
 	</div>
-	</div>
-</div>
-</div>
 
 
-</body></html>
+</body>
+</html>

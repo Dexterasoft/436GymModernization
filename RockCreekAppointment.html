@@ -12,11 +12,11 @@
 
 <table class="tabletop" border= "1">
 <tr>
-<th>Home</th>
-<th>Make an Appointment</th>
+<th><a href="RockCreekHome.html" title="homepage">Home</a></th>
+<th><a href="RockCreekAppointment.html" title="homepage">Make an Appointment</a></th>
 <th>About Us</th>
-<th>Log In/Sign Up</th>
-<th>Contact Us</th>
+<th><a href="RockCreekLogin.html" title="Appointment">Log In/Sign Up</a></th>
+<th><a href="RockCreekContactUs.html" title="Contact Us">Contact Us</a></th>
 </tr>
 </table>
 </div>
@@ -24,20 +24,84 @@
 <div class="main" >
 
 	<div class="leftside">
-	<table border= "1" class="tableleft">
-<tr>
-<th>Search Bar can Go Here</th>
-</tr>
-</table>
+		<input id="DTsearch" class="search" type="text" name="search" />
+	
 		
 	</div>
 <div class="mainsub" >
 	<div class="centerpiece">
-		
-<p class="para">Hello. This is where our appointment content will go.</p>
-		
-		
-		
+		<form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>Which appointment type do you require?</legend>
+<p><label> <input type="radio" name="taxi" required value="car"> Muscle Work </label></p>
+<p><label> <input type="radio" name="taxi" required value="van"> Endurance Training </label></p>
+<p><label> <input type="radio" name="taxi" required value="tuktuk"> Cardio </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Extras</legend>
+<p><label> <input type="checkbox" name="extras" value="baby"> Pilates </label></p>
+<p><label> <input type="checkbox" name="extras" value="wheelchair"> Free Weights </label></p>
+<p><label> <input type="checkbox" name="extras" value="tip"> Workout Mat </label></p>
+</fieldset>
+
+<p>
+<label>Appointment Date/Time
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+<p>
+<label>Appointment Location
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="office" >Yoga Studio</option>
+<option value="town_hall" >Cycle Studio</option>
+<option value="telepathy" >Offsite </option>
+</select>
+</label> 
+</p>
+
+<p>
+<label>Trainer Name:
+<input type="text" name="dropoff_place" required list="destinations">
+</label>
+
+<datalist id="destinations">
+<option value="Lonsdale McCallum">
+<option value="Antwon Hardy">
+<option value="Johnathan Combs">
+</datalist>
+</p>
+
+<p>
+<label>Special Instructions
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Submit Booking</button></p>
+
+</form> 
 		
 	</div>
 	
@@ -49,6 +113,21 @@
 	</div>
 	</div>
 </div>
+<div class="footer">
+
+			<table border= "0" class="tablebottom">
+<tr>
+<th><img src="googleplus.png" height="50px" width="50px" alt="Google Plus Icon"></th>
+<th><img src="snapchat.png" height="50px" width="50px" alt="Snapchat Icon"></th>
+<th>Copyright 2018   All Rights Reserved</th>
+<th><img src="fbicon.png" height="50px" width="50px" alt="Facebook Icon"></th>
+<th><img src="twittericon.jpg" height="50px" width="50px" alt="Twitter Icon"></th>
+</tr>
+</table>
+		
+		
+	</div>
+
 </div>
 
 
