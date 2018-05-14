@@ -1,9 +1,4 @@
-/**************
-     IS 448
-          
-      Initial CSS File for HW2
-**************/ 
-	/*Code that implements appearance detail 1 in homework handout */
+
 	body{
 		background-image: url(background.png);
 		font-size: 8pt;
@@ -16,7 +11,7 @@
 		font-style: bold;
 	}
 	
-	/*Code that implements appearance detail 2 in homework handout */
+	
 	.top{
 		height: 200px;
 		width: 1000px;
@@ -33,7 +28,7 @@
 	
 	.main{
 		width: 1000px;
-		height: 1500px;
+		height: 750px;
 		padding:0px;
 		margin: auto;
 		background-color: #6e6e6e;
@@ -41,7 +36,7 @@
 	
 	.mainsub{
 		width: 750px;
-		height: 1500px;
+		height: 750px;
 		margin: auto;
 		padding:0px;
 		background-color: #6e6e6e;
@@ -50,7 +45,7 @@
 	
 	.centerpiece{
 		width: 590px;
-		height: 1500px;
+		height: 750px;
 		padding:0px;
 		background-color: #d8d8d8;
         border:2px solid gray;
@@ -64,7 +59,7 @@
 	.rightside{
 		float: right;
 		width: 140px;
-		height: 1480px;
+		height: 730px;
 		padding: 5px;
 		background-color: #6e6e6e;
 		font-size: 8pt;
@@ -74,7 +69,7 @@
 	.leftside{
 		float: left;
 		width: 240px;
-		height: 1480px;
+		height: 730px;
 		padding: 5px;
 		background-color: #6e6e6e;
 		font-size: 8pt;
@@ -87,7 +82,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		width: 75em;
-		background-color: white;
+		background-color: #e6e6e6;
 	}
 	
 	.tableleft{
@@ -189,15 +184,24 @@
 		color: transparent;
 	}
 	
-	.contact {
-		font-weight: bold;
-		line-height: 3;
+	
+	
+	.footer{
+		width: 1000px;
+		height: 50px;
+		padding:0px;
+		margin: auto;
+		background-color: #605654;
 		
 	}
 	
-	p.titles {
-		text-indent: -30%;
-		color: red;
-		
-	}
 	
+	.tablebottom{
+	font-family:calibri , futura;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 50px;
+	background-color: #605654;
+}
