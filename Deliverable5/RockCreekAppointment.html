@@ -33,11 +33,78 @@
 	</div>
 <div class="mainsub" >
 	<div class="centerpiece">
-		
-<p class="para">Hello. This is where our appointment content will go.</p>
-		
-		
-		
+		<form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>Which appointment type do you require?</legend>
+<p><label> <input type="radio" name="taxi" required value="car"> Muscle Work </label></p>
+<p><label> <input type="radio" name="taxi" required value="van"> Endurance Training </label></p>
+<p><label> <input type="radio" name="taxi" required value="tuktuk"> Cardio </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Extras</legend>
+<p><label> <input type="checkbox" name="extras" value="baby"> Pilates </label></p>
+<p><label> <input type="checkbox" name="extras" value="wheelchair"> Free Weights </label></p>
+<p><label> <input type="checkbox" name="extras" value="tip"> Workout Mat </label></p>
+</fieldset>
+
+<p>
+<label>Appointment Date/Time
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+<p>
+<label>Appointment Location
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="office" >Yoga Studio</option>
+<option value="town_hall" >Cycle Studio</option>
+<option value="telepathy" >Offsite </option>
+</select>
+</label> 
+</p>
+
+<p>
+<label>Trainer Name:
+<input type="text" name="dropoff_place" required list="destinations">
+</label>
+
+<datalist id="destinations">
+<option value="Lonsdale McCallum">
+<option value="Antwon Hardy">
+<option value="Johnathan Combs">
+</datalist>
+</p>
+
+<p>
+<label>Special Instructions
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Submit Booking</button></p>
+
+</form> 
 		
 	</div>
 	

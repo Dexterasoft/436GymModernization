@@ -9,6 +9,12 @@
 		font-size: 8pt;
 		font-family:Verdana, Tahoma, sans-serif;
 	}
+
+	h3{
+		color: blue;
+		font-size: 20;
+		font-style: bold;
+	}
 	
 	/*Code that implements appearance detail 2 in homework handout */
 	.top{
