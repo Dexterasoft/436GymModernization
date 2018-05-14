@@ -9,7 +9,8 @@
 </head>
 
 <body>
-	<div class="background">		
+	<div class="background">
+		
 		<div class="top">
 			<img class="banner" src="RockCreekLogo.jpg" alt="Logo" >
 			<table class="tabletop" border= "1">
@@ -31,28 +32,42 @@
 			</div>
 			<div class="mainsub" >
 				<div class="centerpiece">
-					<p class="para">Hello. This is where our contact form will go.</p>
+					<br><br>
 					
 					<!--Work in progress-->
-					<form action="ContactInfo.php" method="post">
+					<form action="ContactInfo.php" class="contact" method="post">
 						<Center>
-						<H2> Contact Us</H2>
-						<hr>
-						Full Name:
-						<input type="text" name="name" placeholder="My name is... "><br>
-						Message Title:
-						<input type="msgtitle" name="msgtitle" placeholder="I'm emailing because... "><br>
-						
-						<input type="radio" name="category" value="Billing" checked> Billing <br>
-						<input type="radio" name="category" value="General inquiries"> General inquiries <br>
-						<input type="radio" name="category" value="Suggestions"> Suggestions <br>
-						<input type="radio" name="category" value="Tours"> Taking a tour <br>
-						<input type="radio" name="category" value="Travel directions"> Travel directions <br>
-						<input type="radio" name="category" value="Web services"> Web services <br>
-						<br>
-						<hr>
-						
-						<input type="submit" value="Send Data" name="submit">
+							<H2> Contact Us</H2>
+							<hr>
+							
+							<p class="titles"> Your Name (required) </p>
+							<input type="text" name="name" placeholder="ex: John Doe "><br>
+							<p> Your Email (required) </p>
+							<br>
+							<input type="text" name="email" placeholder="ex: email@site.com "><br>
+							Subject:
+							<br>
+							<input type="text" name="msgtitle" placeholder="ex: Can I come in for a tour? "><br>
+							
+							<select name="Purpose">
+								<option value="Billing"> Billing </option>
+								<option value="General inquiries"> General inquiries </option>
+								<option value="Suggestions"> Suggestions </option>
+								<option value="Tours"> Taking a tour</option>
+								<option value="Travel directions"> Travel directions </option>
+								<option value="Web services"> Web services </option>
+							</select>
+							<br><br>
+							
+							Message:
+							<br>
+							<textarea rows="4" cols="50" name=longtext>
+							Type your information here
+							</textarea>
+							<br>
+							<hr>
+							
+							<input type="submit" value="Send Data" name="submit">
 						</Center>
 					</form>
 					
