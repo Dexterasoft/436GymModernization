@@ -183,3 +183,15 @@
 		color: transparent;
 	}
 	
+	.contact {
+		font-weight: bold;
+		line-height: 3;
+		
+	}
+	
+	p.titles {
+		text-indent: -30%;
+		color: red;
+		
+	}
+	
