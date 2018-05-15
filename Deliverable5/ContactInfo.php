@@ -4,21 +4,22 @@
 	$email=$_POST['email'];
 	$msgtitle=$_POST['msgtitle'];
 	$purpose=$_POST['purpose'];
-	$message=$_POST['message`'];
+	$message=$_POST['message'];
 ?>
 
-<Center>
 
-Name: <?=$name?>
+Name: <Br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <?=$name?>
 <Br>
-Email: <?=$email?>
+Email: <Br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <?=$email?>
 <Br>
-Message Title: <?=$msgtitle?>
+Message Title: <Br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <?=$msgtitle?>
 <Br>
-Purpose: <?=$purpose?>
-<Br>
-Message: <Br>
+Purpose: <Br>
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <?=$purpose?>
 <Br>
-
-</Center>
+Message: <Br>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <?=$message?>
+<Br>
