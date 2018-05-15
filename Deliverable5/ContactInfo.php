@@ -3,8 +3,8 @@
 	$name=$_POST['name'];
 	$email=$_POST['email'];
 	$msgtitle=$_POST['msgtitle'];
-	$purpose=$_POST['Purpose'];
-	$message=$_POST['longtext'];
+	$purpose=$_POST['purpose'];
+	$message=$_POST['message'];
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
@@ -45,13 +45,17 @@
 					<h2>Name:</h2><?=$name?>
 					<Br>
 					<h2>Email:</h2> <?=$email?>
+					
 					<Br>
 					<h2>Message Title:</h2> <?=$msgtitle?>
+					
 					<Br>
 					<h2>Purpose: </h2> <?=$purpose?>
+					
 					<Br>
 					<h2>Message: </h2> <Br>
-					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <?=$purpose?>
+					<Br>
+					&nbsp &nbsp &nbsp &nbsp &nbsp <?=$purpose?>
 					<Br>
 					
 					
