@@ -55,7 +55,7 @@
 					<Br>
 					<h2>Message: </h2> <Br>
 					<Br>
-					&nbsp &nbsp &nbsp &nbsp &nbsp <?=$purpose?>
+					&nbsp &nbsp &nbsp &nbsp &nbsp <?=$message?>
 					<Br>
 					
 					
